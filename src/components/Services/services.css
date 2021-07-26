@@ -1,0 +1,133 @@
+.custom-dialog {  
+  width: 90%; 
+  max-width: none !important;
+}
+
+.modalbutton1{
+  width: 320px;
+}
+
+
+
+.rserimg1{
+  width: 600px;
+  height: 300px;
+}
+
+.rserbutton1 {
+  border-style: none;
+  border-radius: 16px;
+  padding: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  background-color: #f54b08;
+}
+
+.rsercard1{
+  width: 168px;
+  height: 168px;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  border-style: none;
+  padding-top: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.rsercard1{
+  width: 168px;
+  height: 168px;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  border-style: none;
+  padding-top: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rsercard2{
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #EFE4FE, 100%;
+  border-style: none;
+  padding-top: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.modalimg{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.sercard {
+    text-align: center;
+    background-color: #EFE4FE;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+  }
+
+.divbutton{
+    margin-left: 180px;
+}
+
+.servicebutton{
+    color: #000000;
+    background-color: #EFE4FE,;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: none;    
+    border-radius: 8px;
+    margin: 10px;    
+  }
+
+
+  .servicebg-color{
+    background-color: rgb(252, 249, 249);
+  }
+
+  .saiimg{
+      width: 150px;
+      height: 150px;
+  }
+
+  .digitalbgcolor{
+        background: linear-gradient(180deg, #E0CEFF 0%, rgba(196, 196, 196, 0) 100%);    
+  }
+  .dserbutton1{
+    color: #000000;
+    background-color: #ffffff;
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    border-width: none;    
+    border-radius: 8px;
+    margin: 10px;    
+  }
+  .startegyimg{
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+  }
+  .clientimg{
+    width: 80px;
+    height: 80px;
+  }
+  .dbg1{
+    background-color: #AADDFF;
+  }
+  .dbg2{
+    background-color: #FFBAD2;
+  }
+  .dbg3{
+    background-color: #E0FF9C;
+  }
