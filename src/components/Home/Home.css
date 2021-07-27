@@ -1,105 +1,163 @@
-.mainbutton{
-    background-image: linear-gradient(to right, #7100FF, #CDAAFF);
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
+.main-button {
+  background-image: linear-gradient(to right, #7100ff, #cdaaff);
+  border-radius: 5px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 24.6207px;
+  color: #f2f2f2;
 }
 
+.header-container {
+  border-bottom: 2px solid #eeeeee;
+}
 
-.card {
-    text-align: center;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e5eaf4;
-    border-radius: 16px;
-  }
+.heading-width {
+  max-width: 600px;
+}
 
-  .card:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+.header-heading {
+  font-size: 45px;
+  color: #000000;
+}
 
-  .card-image {
-    width: 87px;
-    height: 90px;
-  }
-  .card-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 22px;
-    font-weight: 500;
-  }
-  .card-description {
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 16px;
-  }
+.header-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #828282;
+  padding: 15px 0px 15px 0px;
+}
 
-  .card-link{
-    color: #f54b08;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-style:solid;
-  }
+.webure-card {
+  text-align: center;
+  background-color: white;
+  max-width: 80%;
+  height: 450px;
+}
 
+.webure-card:hover {
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.card-image {
+  width: 163px;
+  height: 163px;
+}
+.card-title {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #474359;
+}
+.card-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #a9b0bc;
+}
 
-  .card1-image {
-    width: 50px;
-    height: 50px;
-  }
-  .card1-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .card1-description {
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 12px;
-  }
+.card-link {
+  color: #f54b08;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-style: solid;
+}
 
+.about-us-card {
+  width: 290px;
+  height: 370px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .card2-image {
-    width: 50px;
-    height: 50px;
-  }
-  .card2-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 22px;
-    font-weight: 500;
-  }
-  .card2-description {
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 15px;
-  }
+.card1-image {
+  width: 70px;
+  height: 70px;
+}
+.card1-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #4f4f4f;
+}
+.card1-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+  max-width: 80%;
+}
 
-  .buttonexplore {
-    border-style: none;
-    border-radius: 10px;
-    padding: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-    background-color: #f54b08;
-  }
+.card2-image {
+  width: 50px;
+  height: 50px;
+}
+.card2-title {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+}
+.card2-description {
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
 
+.button-explore {
+  width: 209px;
+  height: 63px;
+  background: #ff5d22;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #f2f2f2;
+  margin-top: 30px;
+}
 
-  .aboutheading{
-      color: #000000;
-      text-decoration-color: #f54b08;
-      text-decoration-style:solid;
-  } 
+.about-heading {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #f54b08;
+  text-decoration-style: solid;
+  margin-bottom: 30px;
+}
 
-.moveimg{
+.about-card-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #a9b0bc;
+  max-width: 70%;
+}
+
+.moveimg {
   width: 50px;
   height: 50px;
 }

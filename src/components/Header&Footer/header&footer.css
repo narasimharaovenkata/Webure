@@ -1,123 +1,137 @@
-@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Nunito&family=Open+Sans&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
 
 body {
-    margin: 0px;
-  }
-
-.navbackground{
-    background-color: #ffffff;
+  margin: 0px;
 }
-.navbar-nav { width: 100%;}
 
+.nav-background {
+  background-color: #ffffff;
+}
 
-.nav-link{
-    font-size: 23px;
-    text-decoration: none;
+.navbar-brand-name {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27.392px;
+  color: #5d5d5f;
+}
+.navbar-container {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .navbar-container {
+    width: 90%;
+  }
+}
+
+.nav-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #4f4f4f;
 }
 .nav-link:hover {
-    color: #f54b08 !important;
-    
-    text-decoration:none;
-    text-decoration-color: royalblue;
-    text-underline-offset: 10px;
-    text-decoration-style:solid;
+  color: #ff5d22 !important;
+  text-decoration: underline;
+  text-decoration-color: #50448c;
+  text-underline-offset: 10px;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
 }
+
 .navbutton {
-    border-style: none;
-    border-radius: 25px;
-    padding: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-    background-color: #f54b08;
-  }
+  border-style: none;
+  border-radius: 50px;
+  width: 167px;
+  height: 58px;
+  color: #ffffff;
+  background-color: #f54b08;
+}
 
-  .navbutton:hover {
-    border-style: none;
-    border-radius: 25px;
-    padding: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-    background-color: #31045c;
-  }
+.navbutton:hover {
+  color: #ffffff;
+  background-color: #31045c;
+}
 
-.footer-area{
-    background-color: #1A1F39;
-    color: #ffffff;}
+/* Footer section */
 
+.footer-area {
+  background-color: #1a1f39;
+  color: #ffffff;
+}
 
 ul {
-    list-style-type: none;
-  }
-
-.footerheadpadding{
-    padding-left: 100px;
+  list-style-type: none;
 }
 
-.footersocilapadding{
-    padding-left: 90px;
+.footerheadpadding {
+  padding-left: 100px;
 }
 
-.footer-list{
-    color: #ffffff;
-    font-size: large;
+.footersocilapadding {
+  padding-left: 90px;
 }
 
-.footer-list:hover{
-    color: #fdcf02;
+.footer-list {
+  color: #ffffff;
+  font-size: large;
 }
 
-hr{
-    background-color:#ffffff;
-    height: 1px; 
+.footer-list:hover {
+  color: #fdcf02;
 }
 
-.citycolor{
-    color:#fdcf02;
+hr {
+  background-color: #ffffff;
+  height: 1px;
 }
 
-.regioncolor{
-    background-color: transparent;
-    color:#ffffff;
-    border-width: 2px;
+.citycolor {
+  color: #fdcf02;
 }
 
-.socialsize{
-    font-size: 30px;
+.regioncolor {
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 2px;
 }
 
-.socialsize:hover{
-    color: #f54b08;
-}
-.numstyle{
-    color: #fdcf02;
-    padding-left: 70px;
-}
-.mailstyle{    
-    color: #fdcf02;
-    padding-left: 70px;    
+.socialsize {
+  font-size: 30px;
 }
 
-.copyrights{
-    text-align: center;
-    padding-bottom: 20px;
-    margin: 0px;
+.socialsize:hover {
+  color: #f54b08;
+}
+.numstyle {
+  color: #fdcf02;
+  padding-left: 70px;
+}
+.mailstyle {
+  color: #fdcf02;
+  padding-left: 70px;
 }
 
-.policy{
-    color: #ffffff;
-    text-decoration:underline;
-    text-decoration-color: #fdcf02;
-    text-underline-offset: 10px;
-    text-decoration-style:solid;
+.copyrights {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0px;
 }
-.policy:hover{
-    color: #53f508;
-    text-decoration:underline;
-    text-decoration-color: #f54b08;
-    text-underline-offset: 10px;
-    text-decoration-style:solid;
+
+.policy {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #fdcf02;
+  text-underline-offset: 10px;
+  text-decoration-style: solid;
+}
+.policy:hover {
+  color: #53f508;
+  text-decoration: underline;
+  text-decoration-color: #f54b08;
+  text-underline-offset: 10px;
+  text-decoration-style: solid;
 }
