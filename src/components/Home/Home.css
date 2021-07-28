@@ -157,7 +157,104 @@
   max-width: 70%;
 }
 
-.moveimg {
-  width: 50px;
+.choose-us-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  color: #828282;
+}
+
+.choose-us-card {
+  max-width: 400px;
+  height: 500px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+}
+
+.choose-us-card:hover {
+  box-shadow: 0px 5.08068px 38.1051px rgba(0, 0, 0, 0.1);
+}
+
+.choose-us-card-title {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  color: #ff5d22;
+}
+.choose-us-card-description {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  color: #828282;
+}
+
+.move-img {
+  width: 150px;
+}
+
+.digital-drive-container {
+  background-image: url(./Rectangle2.png);
+  background-size: cover;
+  min-height: 350px;
+}
+
+.digital-drive-headings {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 38px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.ready-to-heading {
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.ready-to-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #a9b0bc;
+}
+
+.ready-to-card {
+  width: 240px;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 0px 0px 29.2139px rgba(0, 0, 0, 0.1);
+  border-radius: 6.35084px;
+}
+
+.ready-to-card-image {
+  width: 150px;
   height: 50px;
+}
+.ready-to-card-stripe-image {
+  width: 120px;
+  height: 80px;
+}
+
+.ready-card-title {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 25.4034px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.ready-to-card-description {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 12.7017px;
+  text-align: center;
+  color: #828282;
+  max-width: 200px;
 }
